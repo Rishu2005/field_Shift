@@ -1,0 +1,488 @@
+{
+  "patna": {
+    "metadata": {
+      "id": "patna",
+      "name": "Patna",
+      "zone": "Zone IIIB",
+      "lat": 25.5941,
+      "lon": 85.1376,
+      "hazard": "Groundwater stress, Tal waterlogging in post-monsoon",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 828.8,
+      "avg_temperature_c": 26.8,
+      "max_temperature_c": 47.2,
+      "min_temperature_c": 3.8,
+      "heat_stress_days": 122,
+      "frost_risk_days": 1,
+      "heavy_rain_days": 5,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 122,
+    "annual_rain_mm": 828.8,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 74.5
+  },
+  "gaya": {
+    "metadata": {
+      "id": "gaya",
+      "name": "Gaya",
+      "zone": "Zone IIIB",
+      "lat": 24.7955,
+      "lon": 85.0002,
+      "hazard": "Severe drought and deep groundwater depletion",
+      "dominant_rotation": "rice-lentil"
+    },
+    "summary": {
+      "total_rainfall_mm": 816.5,
+      "avg_temperature_c": 26.8,
+      "max_temperature_c": 47.0,
+      "min_temperature_c": 4.1,
+      "heat_stress_days": 134,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 6,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 134,
+    "annual_rain_mm": 816.5,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 72.4
+  },
+  "aurangabad": {
+    "metadata": {
+      "id": "aurangabad",
+      "name": "Aurangabad",
+      "zone": "Zone IIIB",
+      "lat": 24.754,
+      "lon": 84.3725,
+      "hazard": "Frequent rainfall deficits, terminal heat",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 707.0,
+      "avg_temperature_c": 27.0,
+      "max_temperature_c": 47.0,
+      "min_temperature_c": 4.0,
+      "heat_stress_days": 144,
+      "frost_risk_days": 1,
+      "heavy_rain_days": 3,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 144,
+    "annual_rain_mm": 707.0,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 77.6
+  },
+  "nawada": {
+    "metadata": {
+      "id": "nawada",
+      "name": "Nawada",
+      "zone": "Zone IIIB",
+      "lat": 24.8878,
+      "lon": 85.5424,
+      "hazard": "Drought vulnerability, low canal coverage",
+      "dominant_rotation": "maize-wheat-pulses"
+    },
+    "summary": {
+      "total_rainfall_mm": 1061.0,
+      "avg_temperature_c": 26.4,
+      "max_temperature_c": 46.6,
+      "min_temperature_c": 4.4,
+      "heat_stress_days": 112,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 10,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 112,
+    "annual_rain_mm": 1061.0,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 68.2
+  },
+  "muzaffarpur": {
+    "metadata": {
+      "id": "muzaffarpur",
+      "name": "Muzaffarpur",
+      "zone": "Zone I",
+      "lat": 26.1209,
+      "lon": 85.3647,
+      "hazard": "Burhi Gandak flash flooding, waterlogging",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1186.2,
+      "avg_temperature_c": 26.5,
+      "max_temperature_c": 46.7,
+      "min_temperature_c": 4.8,
+      "heat_stress_days": 108,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 14,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 108,
+    "annual_rain_mm": 1186.2,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 74.6
+  },
+  "darbhanga": {
+    "metadata": {
+      "id": "darbhanga",
+      "name": "Darbhanga",
+      "zone": "Zone I",
+      "lat": 26.1542,
+      "lon": 85.8918,
+      "hazard": "Bagmati/Kamala flooding, extensive wetland",
+      "dominant_rotation": "makhana-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1186.2,
+      "avg_temperature_c": 26.5,
+      "max_temperature_c": 46.7,
+      "min_temperature_c": 4.8,
+      "heat_stress_days": 108,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 14,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 108,
+    "annual_rain_mm": 1186.2,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 70.3
+  },
+  "madhubani": {
+    "metadata": {
+      "id": "madhubani",
+      "name": "Madhubani",
+      "zone": "Zone I",
+      "lat": 26.3533,
+      "lon": 86.0718,
+      "hazard": "Riverine inundation, clayey lowlands",
+      "dominant_rotation": "rice-wheat-moong"
+    },
+    "summary": {
+      "total_rainfall_mm": 1356.0,
+      "avg_temperature_c": 25.9,
+      "max_temperature_c": 44.3,
+      "min_temperature_c": 7.4,
+      "heat_stress_days": 86,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 11,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 86,
+    "annual_rain_mm": 1356.0,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 69.6
+  },
+  "samastipur": {
+    "metadata": {
+      "id": "samastipur",
+      "name": "Samastipur",
+      "zone": "Zone I",
+      "lat": 25.8628,
+      "lon": 85.7811,
+      "hazard": "Floods along Burhi Gandak, intensive rabi maize hub",
+      "dominant_rotation": "rice-maize"
+    },
+    "summary": {
+      "total_rainfall_mm": 1186.2,
+      "avg_temperature_c": 26.5,
+      "max_temperature_c": 46.7,
+      "min_temperature_c": 4.8,
+      "heat_stress_days": 108,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 14,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 108,
+    "annual_rain_mm": 1186.2,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 70.1
+  },
+  "purnia": {
+    "metadata": {
+      "id": "purnia",
+      "name": "Purnia",
+      "zone": "Zone II",
+      "lat": 25.7771,
+      "lon": 87.4753,
+      "hazard": "Heavy monsoon inundation, high humidity",
+      "dominant_rotation": "rice-maize"
+    },
+    "summary": {
+      "total_rainfall_mm": 1629.6,
+      "avg_temperature_c": 25.9,
+      "max_temperature_c": 44.9,
+      "min_temperature_c": 6.0,
+      "heat_stress_days": 90,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 18,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 90,
+    "annual_rain_mm": 1629.6,
+    "soil_texture": "Sandy Loam / Light Alluvium",
+    "elevation_m": 55.3
+  },
+  "katihar": {
+    "metadata": {
+      "id": "katihar",
+      "name": "Katihar",
+      "zone": "Zone II",
+      "lat": 25.5436,
+      "lon": 87.5674,
+      "hazard": "Kosi-Ganga confluence flooding, soil acidity",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1560.0,
+      "avg_temperature_c": 26.1,
+      "max_temperature_c": 45.6,
+      "min_temperature_c": 5.3,
+      "heat_stress_days": 93,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 19,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 93,
+    "annual_rain_mm": 1560.0,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 53.6
+  },
+  "saharsa": {
+    "metadata": {
+      "id": "saharsa",
+      "name": "Saharsa",
+      "zone": "Zone II",
+      "lat": 25.8835,
+      "lon": 86.6006,
+      "hazard": "Kosi river shifting course, siltation",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1690.2,
+      "avg_temperature_c": 25.9,
+      "max_temperature_c": 45.3,
+      "min_temperature_c": 5.2,
+      "heat_stress_days": 89,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 15,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 89,
+    "annual_rain_mm": 1690.2,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 63.2
+  },
+  "supaul": {
+    "metadata": {
+      "id": "supaul",
+      "name": "Supaul",
+      "zone": "Zone II",
+      "lat": 26.126,
+      "lon": 86.6074,
+      "hazard": "Recurrent Kosi flood breaches",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1690.2,
+      "avg_temperature_c": 25.9,
+      "max_temperature_c": 45.3,
+      "min_temperature_c": 5.2,
+      "heat_stress_days": 89,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 15,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 89,
+    "annual_rain_mm": 1690.2,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 64.1
+  },
+  "rohtas": {
+    "metadata": {
+      "id": "rohtas",
+      "name": "Rohtas (Sasaram)",
+      "zone": "Zone IIIB",
+      "lat": 24.9586,
+      "lon": 84.0156,
+      "hazard": "Canal tail-end water disputes, intensive residue burning",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 710.0,
+      "avg_temperature_c": 26.6,
+      "max_temperature_c": 46.3,
+      "min_temperature_c": 3.4,
+      "heat_stress_days": 125,
+      "frost_risk_days": 1,
+      "heavy_rain_days": 4,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 125,
+    "annual_rain_mm": 710.0,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 81.5
+  },
+  "bhojpur": {
+    "metadata": {
+      "id": "bhojpur",
+      "name": "Bhojpur (Ara)",
+      "zone": "Zone IIIB",
+      "lat": 25.556,
+      "lon": 84.6603,
+      "hazard": "Diara erosion along Ganga, weed pressure",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 645.6,
+      "avg_temperature_c": 27.0,
+      "max_temperature_c": 47.2,
+      "min_temperature_c": 3.7,
+      "heat_stress_days": 144,
+      "frost_risk_days": 1,
+      "heavy_rain_days": 3,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 144,
+    "annual_rain_mm": 645.6,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 78.4
+  },
+  "bhagalpur": {
+    "metadata": {
+      "id": "bhagalpur",
+      "name": "Bhagalpur",
+      "zone": "Zone IIIA",
+      "lat": 25.2425,
+      "lon": 86.9842,
+      "hazard": "Ganga floods in north, dry uplands in south",
+      "dominant_rotation": "rice-mustard"
+    },
+    "summary": {
+      "total_rainfall_mm": 1495.2,
+      "avg_temperature_c": 26.1,
+      "max_temperature_c": 45.5,
+      "min_temperature_c": 5.5,
+      "heat_stress_days": 99,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 16,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 99,
+    "annual_rain_mm": 1495.2,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 57.4
+  },
+  "banka": {
+    "metadata": {
+      "id": "banka",
+      "name": "Banka",
+      "zone": "Zone IIIA",
+      "lat": 24.8856,
+      "lon": 86.9234,
+      "hazard": "Chotanagpur fringe undulating terrain, soil erosion",
+      "dominant_rotation": "rice-lentil"
+    },
+    "summary": {
+      "total_rainfall_mm": 1495.2,
+      "avg_temperature_c": 26.1,
+      "max_temperature_c": 45.5,
+      "min_temperature_c": 5.5,
+      "heat_stress_days": 99,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 16,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 99,
+    "annual_rain_mm": 1495.2,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 56.4
+  },
+  "west_champaran": {
+    "metadata": {
+      "id": "west_champaran",
+      "name": "West Champaran (Bettiah)",
+      "zone": "Zone I",
+      "lat": 27.163,
+      "lon": 84.4532,
+      "hazard": "Foothill runoff, Terai moisture, sugarcane belt",
+      "dominant_rotation": "rice-wheat"
+    },
+    "summary": {
+      "total_rainfall_mm": 1173.9,
+      "avg_temperature_c": 25.8,
+      "max_temperature_c": 45.1,
+      "min_temperature_c": 4.4,
+      "heat_stress_days": 99,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 13,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 99,
+    "annual_rain_mm": 1173.9,
+    "soil_texture": "Calcareous Loam / Silt Loam",
+    "elevation_m": 86.5
+  },
+  "begusarai": {
+    "metadata": {
+      "id": "begusarai",
+      "name": "Begusarai",
+      "zone": "Zone I",
+      "lat": 25.4182,
+      "lon": 86.1272,
+      "hazard": "Industrial water pressure, intensive cereal-maize belt",
+      "dominant_rotation": "rice-maize"
+    },
+    "summary": {
+      "total_rainfall_mm": 1385.0,
+      "avg_temperature_c": 26.4,
+      "max_temperature_c": 46.4,
+      "min_temperature_c": 4.9,
+      "heat_stress_days": 104,
+      "frost_risk_days": 0,
+      "heavy_rain_days": 19,
+      "total_days": 365
+    },
+    "weekly_count": 52,
+    "bare_weeks": 11,
+    "heat_stress_days": 104,
+    "annual_rain_mm": 1385.0,
+    "soil_texture": "Clay / Silty Clay (Heavy Tal Soil)",
+    "elevation_m": 65.3
+  }
+}

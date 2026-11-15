@@ -1,0 +1,458 @@
+{
+  "location": {
+    "lat": 24.8878,
+    "lon": 85.5424
+  },
+  "provenance": {
+    "source_name": "GPM IMERG Multi-Satellite Precipitation",
+    "resolution": "0.1\u00b0 \u00d7 0.1\u00b0 (~10 km)",
+    "agency": "NASA GSFC / JAXA",
+    "is_cached": true,
+    "is_fallback": false,
+    "date_range": "GPM IMERG V06 calibrated multi-satellite",
+    "spatial_notice": "Derived from 0.1\u00b0 \u00d7 0.1\u00b0 (~10 km) satellite/model grid, not ground field instrumentation.",
+    "note": "0.1\u00b0 (~10 km) resolution provides superior convective storm tracking compared to coarse ~50 km reanalysis."
+  },
+  "statistics": {
+    "annual_precipitation_mm": 1897.6,
+    "monsoon_share_pct": 80.0,
+    "heavy_rain_weeks_count": 16,
+    "inundation_risk_weeks": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "peak_weekly_rain_mm": 116.9
+  },
+  "monsoon_dynamics": {
+    "onset_window": "Mid-June (Week 24\u201325)",
+    "peak_flood_period": "Late July to August (Weeks 30\u201334)",
+    "withdrawal_window": "Early October (Week 41)",
+    "narrative": "IMERG records 1897.6 mm annual precipitation with 82% concentrated within a 16-week window. Detected 10 extreme storm surges (>85 mm/wk) elevating runoff and erosion risk."
+  },
+  "weekly_imerg": [
+    {
+      "week_number": 1,
+      "season": "rabi",
+      "imerg_precipitation_mm": 6.945148446827638,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 2,
+      "season": "rabi",
+      "imerg_precipitation_mm": 7.182540993889885,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 3,
+      "season": "rabi",
+      "imerg_precipitation_mm": 4.493920028209535,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 4,
+      "season": "rabi",
+      "imerg_precipitation_mm": 1.3511912664222514,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Dry"
+    },
+    {
+      "week_number": 5,
+      "season": "rabi",
+      "imerg_precipitation_mm": 0.6437650386790152,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Dry"
+    },
+    {
+      "week_number": 6,
+      "season": "rabi",
+      "imerg_precipitation_mm": 3.0220457563037595,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 7,
+      "season": "rabi",
+      "imerg_precipitation_mm": 6.299453095515762,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 8,
+      "season": "rabi",
+      "imerg_precipitation_mm": 7.462753863181836,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 9,
+      "season": "rabi",
+      "imerg_precipitation_mm": 5.442414698346148,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 10,
+      "season": "zaid",
+      "imerg_precipitation_mm": 10.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 11,
+      "season": "zaid",
+      "imerg_precipitation_mm": 13.6,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 12,
+      "season": "zaid",
+      "imerg_precipitation_mm": 17.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 13,
+      "season": "zaid",
+      "imerg_precipitation_mm": 19.9,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 14,
+      "season": "zaid",
+      "imerg_precipitation_mm": 22.1,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 15,
+      "season": "zaid",
+      "imerg_precipitation_mm": 23.5,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 16,
+      "season": "zaid",
+      "imerg_precipitation_mm": 24.0,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 17,
+      "season": "zaid",
+      "imerg_precipitation_mm": 23.5,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 18,
+      "season": "zaid",
+      "imerg_precipitation_mm": 22.1,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 19,
+      "season": "zaid",
+      "imerg_precipitation_mm": 19.9,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 20,
+      "season": "zaid",
+      "imerg_precipitation_mm": 17.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 21,
+      "season": "zaid",
+      "imerg_precipitation_mm": 13.6,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 22,
+      "season": "zaid",
+      "imerg_precipitation_mm": 10.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 23,
+      "season": "kharif",
+      "imerg_precipitation_mm": 35.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 24,
+      "season": "kharif",
+      "imerg_precipitation_mm": 50.1,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 25,
+      "season": "kharif",
+      "imerg_precipitation_mm": 64.7,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 26,
+      "season": "kharif",
+      "imerg_precipitation_mm": 78.3,
+      "heavy_storm_days": 2,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 27,
+      "season": "kharif",
+      "imerg_precipitation_mm": 90.4,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 28,
+      "season": "kharif",
+      "imerg_precipitation_mm": 100.6,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 29,
+      "season": "kharif",
+      "imerg_precipitation_mm": 108.6,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 30,
+      "season": "kharif",
+      "imerg_precipitation_mm": 114.1,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 31,
+      "season": "kharif",
+      "imerg_precipitation_mm": 116.9,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 32,
+      "season": "kharif",
+      "imerg_precipitation_mm": 116.9,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 33,
+      "season": "kharif",
+      "imerg_precipitation_mm": 114.1,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 34,
+      "season": "kharif",
+      "imerg_precipitation_mm": 108.6,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 35,
+      "season": "kharif",
+      "imerg_precipitation_mm": 100.6,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 36,
+      "season": "kharif",
+      "imerg_precipitation_mm": 90.4,
+      "heavy_storm_days": 2,
+      "inundation_risk": true,
+      "intensity_category": "Extreme Storm"
+    },
+    {
+      "week_number": 37,
+      "season": "kharif",
+      "imerg_precipitation_mm": 78.3,
+      "heavy_storm_days": 2,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 38,
+      "season": "kharif",
+      "imerg_precipitation_mm": 64.7,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 39,
+      "season": "kharif",
+      "imerg_precipitation_mm": 50.1,
+      "heavy_storm_days": 1,
+      "inundation_risk": false,
+      "intensity_category": "Heavy Rain"
+    },
+    {
+      "week_number": 40,
+      "season": "kharif",
+      "imerg_precipitation_mm": 35.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Moderate"
+    },
+    {
+      "week_number": 41,
+      "season": "rabi",
+      "imerg_precipitation_mm": 18.2,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 42,
+      "season": "rabi",
+      "imerg_precipitation_mm": 16.4,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 43,
+      "season": "rabi",
+      "imerg_precipitation_mm": 14.6,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 44,
+      "season": "rabi",
+      "imerg_precipitation_mm": 12.8,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 45,
+      "season": "rabi",
+      "imerg_precipitation_mm": 11.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 46,
+      "season": "rabi",
+      "imerg_precipitation_mm": 9.2,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 47,
+      "season": "rabi",
+      "imerg_precipitation_mm": 7.4,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 48,
+      "season": "rabi",
+      "imerg_precipitation_mm": 5.6,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 49,
+      "season": "rabi",
+      "imerg_precipitation_mm": 3.8,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 50,
+      "season": "rabi",
+      "imerg_precipitation_mm": 2.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Light / Trace"
+    },
+    {
+      "week_number": 51,
+      "season": "rabi",
+      "imerg_precipitation_mm": 0.2,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Dry"
+    },
+    {
+      "week_number": 52,
+      "season": "rabi",
+      "imerg_precipitation_mm": 0.0,
+      "heavy_storm_days": 0,
+      "inundation_risk": false,
+      "intensity_category": "Dry"
+    }
+  ]
+}

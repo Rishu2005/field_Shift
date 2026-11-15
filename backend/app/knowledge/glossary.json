@@ -1,0 +1,74 @@
+[
+  {
+    "term": "Normalized Difference Vegetation Index (NDVI)",
+    "category": "Remote Sensing",
+    "short_definition": "A satellite-derived measurement of plant canopy greenness, density, and photosynthetic health.",
+    "how_it_works": "Healthy leaves absorb red light for photosynthesis and reflect near-infrared light. NDVI calculates the ratio between these bands, producing values from -1.0 to +1.0. Cropland typically ranges from 0.15 (bare dry soil) to 0.85 (dense, lush vegetative canopy).",
+    "farmer_meaning": "When NDVI is below 0.20 for consecutive weeks, your field is detected as bare soil without living plant cover. When NDVI drops unexpectedly mid-season, it signals crop stress (drought, pests, or disease).",
+    "satellite_source": "NASA Landsat (30 m), ESA Sentinel-2 (10-20 m), NASA MODIS/VIIRS (250-500 m).",
+    "ground_difference": "Satellites view your whole field from 700 km in space every 5-16 days. Ground observation tells you what bug or fungus is on a single leaf; satellite NDVI tells you how fast the whole crop canopy is losing greenness across the entire parcel."
+  },
+  {
+    "term": "Evapotranspiration (ET)",
+    "category": "Agrometeorology",
+    "short_definition": "The total volume of water transferred from soil evaporation and plant transpiration into the atmosphere.",
+    "how_it_works": "Expressed in millimeters per day (mm/day). It depends on solar radiation, air temperature, relative humidity, and wind speed, plus crop canopy cover.",
+    "farmer_meaning": "ET is the amount of water your crop and soil are 'drinking and sweating' away every day. In hot Bihar summer months (May-June), ET can exceed 8-10 mm/day, drying out topsoil within 48 hours.",
+    "satellite_source": "NASA ECOSTRESS (70 m on the International Space Station), NASA/USGS OpenET, MODIS Global Evapotranspiration (MOD16).",
+    "ground_difference": "Satellites estimate ET by measuring land-surface heat; a ground lysimeter or weather station measures actual evaporation in a physical container. Use satellite ET to understand regional atmospheric water demand."
+  },
+  {
+    "term": "Surface Soil Moisture Anomaly (SMAP)",
+    "category": "Remote Sensing",
+    "short_definition": "A statistical comparison showing whether the top 5 cm of soil is wetter or drier than the historical average for this exact week.",
+    "how_it_works": "NASA's SMAP radar/radiometer detects the microwave dielectric constant of water in the top 5 cm of soil globally every 2-3 days at ~9-36 km resolution.",
+    "farmer_meaning": "A negative anomaly (e.g., -1.5 standard deviations) means your area is in severe soil drought compared to typical years. A large positive anomaly during kharif warns of high waterlogging or flood vulnerability.",
+    "satellite_source": "NASA SMAP (Soil Moisture Active Passive).",
+    "ground_difference": "SMAP sees the top 5 cm averaged over a ~9-36 km grid box. It does not measure deep subsoil moisture (at 60 cm root depth) or variations between your high plot and your neighbor's lowland plot. Always check soil moisture with a spade before irrigating."
+  },
+  {
+    "term": "Water Balance (P – ET)",
+    "category": "Hydrology",
+    "short_definition": "Precipitation minus evapotranspiration over a rolling time window.",
+    "how_it_works": "If rainfall exceeds evapotranspiration (P > ET), there is a water surplus recharging soil moisture or causing runoff. If ET exceeds rainfall (P < ET), there is a water deficit that must be bridged by irrigation or residual root-zone storage.",
+    "farmer_meaning": "Shows you whether your crops are running on a moisture surplus or whether you need groundwater pumping to keep them alive.",
+    "satellite_source": "NASA GPM IMERG (rainfall) + NASA POWER / ECOSTRESS (evapotranspiration).",
+    "ground_difference": "Satellite precipitation can miss hyper-localized monsoon thunderstorms or misread terrain rain shadows. A local raingauge remains the gold standard for daily farm logs."
+  },
+  {
+    "term": "Terminal Heat Stress",
+    "category": "Agronomy",
+    "short_definition": "Abnormally high temperatures (>32-35°C) occurring during the critical grain filling and reproductive stages of winter crops.",
+    "how_it_works": "High ambient temperatures cause wheat pollen sterility, accelerate plant senescence, and shrink the starch-filling period in the grain from 30 days down to 18-20 days.",
+    "farmer_meaning": "In Bihar, March heatwaves often shrivel wheat grains, reducing test weight and cutting final yield by 15-30%. Shifting to shorter-duration early sown wheat varieties or adding legume/green manure rotations helps mitigate this risk.",
+    "satellite_source": "NASA POWER 2-Meter Air Temperature & Daily Maximums (T2M_MAX).",
+    "ground_difference": "NASA POWER provides gridded air temperature at 0.5° (~50 km). Microclimates (canopy shade, proximity to rivers/canals, wet soil cooling) may be 2-3°C cooler than open satellite estimates."
+  },
+  {
+    "term": "Frost Risk / Cold Wave",
+    "category": "Agrometeorology",
+    "short_definition": "Exposure of winter crops to ground temperatures falling close to or below 4°C (frost trigger) accompanied by dense radiation fog.",
+    "how_it_works": "In late December and early January, cold north-westerly winds cause severe night cooling across the plains.",
+    "farmer_meaning": "Mustard flowers and potato foliage are especially vulnerable to cold waves and late blight outbreaks during high humidity fog.",
+    "satellite_source": "NASA POWER Daily Minimum Temperature (T2M_MIN).",
+    "ground_difference": "Valley bottoms and low hollows in a field trap cold air and frost first, even when a satellite grid reports 6°C."
+  },
+  {
+    "term": "Satellite vs. Ground Data: How to Use Both",
+    "category": "Core Concept",
+    "short_definition": "Understanding the difference between macro satellite earth observation and micro field-level reality.",
+    "how_it_works": "Satellites observe entire states and continents continuously from space, providing historical baseline data, trends, and drought/flood patterns without requiring a sensor on every field. Ground data comes from your hands: digging a spade into the dirt, feeling texture, checking pests, and testing pH in an agricultural lab.",
+    "farmer_meaning": "Field Shift uses NASA satellite data to give you the big picture: regional climate trends, rainfall reliability, seasonal bare-field gaps, and historical weather hazards. It does NOT replace a lab soil test or your eyes inspecting the field. Always combine satellite guidance with local agricultural extension advice.",
+    "satellite_source": "NASA Earth Science Division (POWER, SMAP, GPM, Landsat, ECOSTRESS).",
+    "ground_difference": "Always verify satellite insights with local Krishi Vigyan Kendra (KVK) experts before purchasing seeds or changing your primary cropping system."
+  },
+  {
+    "term": "Biological Nitrogen Fixation (BNF)",
+    "category": "Soil Science",
+    "short_definition": "The natural process where legume root nodules convert atmospheric nitrogen gas into plant-available ammonium.",
+    "how_it_works": "Symbiotic Rhizobium bacteria living inside root nodules of pulses (lentil, chickpea, moong, dhaincha) take inert nitrogen from air pockets in the soil and supply it to the plant in exchange for plant carbohydrates.",
+    "farmer_meaning": "Including a legume in your crop rotation adds 30 to 100 kg of free natural nitrogen per hectare to your soil, reducing urea purchases and keeping subsequent crops healthier.",
+    "satellite_source": "Not directly observable by satellites; quantified via agronomic field trials and incorporated into Field Shift's rule-based engine.",
+    "ground_difference": "Dig up a pulse plant at 40 days: healthy active nodules should be pink or red on the inside (leghemoglobin)."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kharif",
+    "name": "Kharif (Monsoon Season)",
+    "local_name": "खरीफ / अगहनी",
+    "months": ["June", "July", "August", "September", "October"],
+    "typical_period": "Mid-June to October / November",
+    "climate_characteristics": "Warm, humid, accounts for 80-85% of annual rainfall in Bihar via South-West Monsoon.",
+    "satellite_signatures": {
+      "ndvi_pattern": "Rapid green-up in July-August, peak vegetative cover (NDVI 0.65-0.85) in September, senescence in October.",
+      "soil_moisture_pattern": "Elevated surface soil moisture (SMAP > 0.30 m³/m³), flood inundation detectable in Northern floodplains."
+    },
+    "key_hazards": [
+      "Erratic monsoon onset delay (late nursery transplanting)",
+      "Prolonged dry spells (monsoon breaks) causing vegetative drought",
+      "Severe flooding in Kosi, Gandak, Bagmati, Mahananda basins (North Bihar)",
+      "Waterlogging in flat lowlands (Tal and Diara lands)"
+    ],
+    "source_notes": {
+      "meteorology": "India Meteorological Department (IMD) Monsoon Climatology of Bihar.",
+      "agriculture": "Department of Agriculture, Government of Bihar: Kharif Season Calendar."
+    }
+  },
+  {
+    "id": "rabi",
+    "name": "Rabi (Winter Season)",
+    "local_name": "रबी",
+    "months": ["November", "December", "January", "February", "March"],
+    "typical_period": "November to late March / April",
+    "climate_characteristics": "Cool, dry conditions with occasional light showers from Western Disturbances (15-40 mm total rain).",
+    "satellite_signatures": {
+      "ndvi_pattern": "Crop emergence in December, peak greenness (NDVI 0.55-0.75) in late January - February, yellowing in March.",
+      "soil_moisture_pattern": "Declining profile moisture; crop relies heavily on residual monsoon moisture and tubewell irrigation."
+    },
+    "key_hazards": [
+      "Terminal heat stress: rapid spikes in maximum temperatures (>32-35°C) in late February / early March during wheat grain filling, reducing thousand-grain weight",
+      "Cold wave / ground frost in late December / early January affecting mustard and potato",
+      "Groundwater table decline in non-alluvial South Bihar tracts"
+    ],
+    "source_notes": {
+      "meteorology": "IMD Pune Agro-meteorological Advisory Services.",
+      "heat_stress": "ICAR-IIWBR / CIMMYT CSISA heat vulnerability studies in Eastern IGP."
+    }
+  },
+  {
+    "id": "zaid",
+    "name": "Zaid (Summer Season)",
+    "local_name": "जायद / गरमा",
+    "months": ["March", "April", "May", "June"],
+    "typical_period": "Late March to mid-June (pre-monsoon)",
+    "climate_characteristics": "Intensely hot and dry, high evaporative demand (ET > 7-9 mm/day), high solar irradiance, westerly winds (Loo).",
+    "satellite_signatures": {
+      "ndvi_pattern": "Widespread bare-field signal (NDVI < 0.20) across >80% of cropland unless irrigated catch crop (moong, vegetables) is sown.",
+      "soil_moisture_pattern": "Severe surface dry-down (SMAP < 0.10 m³/m³), strong positive LST anomalies."
+    },
+    "key_hazards": [
+      "Bare field vulnerability: exposed topsoil subject to wind erosion and high-heat solar oxidation of organic matter",
+      "Severe heatwaves (temperatures exceeding 42-45°C)",
+      "Acute water table depression and high pumping fuel/electricity costs"
+    ],
+    "source_notes": {
+      "climatology": "NASA POWER Agroclimatology & IMD State Climate Summary.",
+      "bare_soil": "Sentinel-2 / Landsat NDVI seasonal dynamics in Bihar."
+    }
+  }
+]

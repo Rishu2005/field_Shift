@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Base styles and farmer-friendly high contrast theme */
+:root {
+  --primary: #15803d;
+  --primary-hover: #166534;
+  --bg-app: #f8fafc;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--bg-app);
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ensure Leaflet map z-index plays nicely with sticky headers and modals */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 10;
+}

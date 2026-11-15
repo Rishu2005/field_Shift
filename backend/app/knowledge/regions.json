@@ -1,0 +1,67 @@
+{
+  "id": "bihar",
+  "name": "Bihar, India",
+  "country": "India",
+  "center": { "lat": 25.6, "lon": 85.1, "default_zoom": 7 },
+  "bounding_box": { "min_lat": 24.3, "max_lat": 27.5, "min_lon": 83.3, "max_lon": 88.3 },
+  "description": "Featured default region located in the fertile Middle Indo-Gangetic Plains, marked by high flood risks north of the Ganges and drought/groundwater vulnerability in the south.",
+  "agro_climatic_zones": [
+    {
+      "id": "zone_1",
+      "code": "Zone I",
+      "name": "North-West Alluvial Plain",
+      "description": "Sub-humid tropical climate, calcareous sandy loam to clay loam soils. Flood-prone along Gandak, Burhi Gandak, and Bagmati basins.",
+      "annual_rainfall_mm": 1240,
+      "districts": ["West Champaran", "East Champaran", "Saran", "Siwan", "Gopalganj", "Muzaffarpur", "Sitamarhi", "Sheohar", "Vaishali", "Darbhanga", "Madhubani", "Samastipur", "Begusarai"]
+    },
+    {
+      "id": "zone_2",
+      "code": "Zone II",
+      "name": "North-East Alluvial Plain",
+      "description": "Humid to per-humid climate, high rainfall, non-calcareous sandy loam, acidic pockets. Chronic inundation along Kosi, Kamala-Balan, and Mahananda.",
+      "annual_rainfall_mm": 1450,
+      "districts": ["Saharsa", "Supaul", "Madhepura", "Purnia", "Kishanganj", "Araria", "Katihar", "Khagaria"]
+    },
+    {
+      "id": "zone_3a",
+      "code": "Zone IIIA",
+      "name": "South Bihar Alluvial Plain (South-East)",
+      "description": "Transition to plateau fringe, slightly acidic to neutral loam/clay-loam. Subject to erratic rainfall and dry spells.",
+      "annual_rainfall_mm": 1100,
+      "districts": ["Bhagalpur", "Banka", "Munger", "Jamui", "Lakhisarai", "Sheikhpura"]
+    },
+    {
+      "id": "zone_3b",
+      "code": "Zone IIIB",
+      "name": "South Bihar Alluvial Plain (South-West)",
+      "description": "Semi-arid to sub-humid, heavy clay (Karail) in Tal areas, intense tubewell extraction, declining groundwater table, drought prone in southern uplands.",
+      "annual_rainfall_mm": 990,
+      "districts": ["Patna", "Nalanda", "Bhojpur", "Buxar", "Rohtas", "Kaimur", "Gaya", "Aurangabad", "Nawada", "Jehanabad", "Arwal"]
+    }
+  ],
+  "districts": [
+    { "id": "patna", "name": "Patna", "zone": "Zone IIIB", "lat": 25.5941, "lon": 85.1376, "hazard": "Groundwater stress, Tal waterlogging in post-monsoon", "dominant_rotation": "rice-wheat" },
+    { "id": "gaya", "name": "Gaya", "zone": "Zone IIIB", "lat": 24.7955, "lon": 85.0002, "hazard": "Severe drought and deep groundwater depletion", "dominant_rotation": "rice-lentil" },
+    { "id": "aurangabad", "name": "Aurangabad", "zone": "Zone IIIB", "lat": 24.7540, "lon": 84.3725, "hazard": "Frequent rainfall deficits, terminal heat", "dominant_rotation": "rice-wheat" },
+    { "id": "nawada", "name": "Nawada", "zone": "Zone IIIB", "lat": 24.8878, "lon": 85.5424, "hazard": "Drought vulnerability, low canal coverage", "dominant_rotation": "maize-wheat-pulses" },
+    { "id": "muzaffarpur", "name": "Muzaffarpur", "zone": "Zone I", "lat": 26.1209, "lon": 85.3647, "hazard": "Burhi Gandak flash flooding, waterlogging", "dominant_rotation": "rice-wheat" },
+    { "id": "darbhanga", "name": "Darbhanga", "zone": "Zone I", "lat": 26.1542, "lon": 85.8918, "hazard": "Bagmati/Kamala flooding, extensive wetland", "dominant_rotation": "makhana-wheat" },
+    { "id": "madhubani", "name": "Madhubani", "zone": "Zone I", "lat": 26.3533, "lon": 86.0718, "hazard": "Riverine inundation, clayey lowlands", "dominant_rotation": "rice-wheat-moong" },
+    { "id": "samastipur", "name": "Samastipur", "zone": "Zone I", "lat": 25.8628, "lon": 85.7811, "hazard": "Floods along Burhi Gandak, intensive rabi maize hub", "dominant_rotation": "rice-maize" },
+    { "id": "purnia", "name": "Purnia", "zone": "Zone II", "lat": 25.7771, "lon": 87.4753, "hazard": "Heavy monsoon inundation, high humidity", "dominant_rotation": "rice-maize" },
+    { "id": "katihar", "name": "Katihar", "zone": "Zone II", "lat": 25.5436, "lon": 87.5674, "hazard": "Kosi-Ganga confluence flooding, soil acidity", "dominant_rotation": "rice-wheat" },
+    { "id": "saharsa", "name": "Saharsa", "zone": "Zone II", "lat": 25.8835, "lon": 86.6006, "hazard": "Kosi river shifting course, siltation", "dominant_rotation": "rice-wheat" },
+    { "id": "supaul", "name": "Supaul", "zone": "Zone II", "lat": 26.1260, "lon": 86.6074, "hazard": "Recurrent Kosi flood breaches", "dominant_rotation": "rice-wheat" },
+    { "id": "rohtas", "name": "Rohtas (Sasaram)", "zone": "Zone IIIB", "lat": 24.9586, "lon": 84.0156, "hazard": "Canal tail-end water disputes, intensive residue burning", "dominant_rotation": "rice-wheat" },
+    { "id": "bhojpur", "name": "Bhojpur (Ara)", "zone": "Zone IIIB", "lat": 25.5560, "lon": 84.6603, "hazard": "Diara erosion along Ganga, weed pressure", "dominant_rotation": "rice-wheat" },
+    { "id": "bhagalpur", "name": "Bhagalpur", "zone": "Zone IIIA", "lat": 25.2425, "lon": 86.9842, "hazard": "Ganga floods in north, dry uplands in south", "dominant_rotation": "rice-mustard" },
+    { "id": "banka", "name": "Banka", "zone": "Zone IIIA", "lat": 24.8856, "lon": 86.9234, "hazard": "Chotanagpur fringe undulating terrain, soil erosion", "dominant_rotation": "rice-lentil" },
+    { "id": "west_champaran", "name": "West Champaran (Bettiah)", "zone": "Zone I", "lat": 27.1630, "lon": 84.4532, "hazard": "Foothill runoff, Terai moisture, sugarcane belt", "dominant_rotation": "rice-wheat" },
+    { "id": "begusarai", "name": "Begusarai", "zone": "Zone I", "lat": 25.4182, "lon": 86.1272, "hazard": "Industrial water pressure, intensive cereal-maize belt", "dominant_rotation": "rice-maize" }
+  ],
+  "source_notes": {
+    "agro_climatic_zones": "ICAR-RCER Patna / Bihar Agricultural University (BAU) Sabour Agro-climatic Zone Classification.",
+    "district_coordinates": "Survey of India / OpenStreetMap administrative centroids.",
+    "hazard_profiles": "Bihar State Disaster Management Authority (BSDMA) & National Institute of Disaster Management (NIDM) District Hazard Profiles."
+  }
+}

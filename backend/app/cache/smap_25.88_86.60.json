@@ -1,0 +1,589 @@
+{
+  "location": {
+    "lat": 25.8835,
+    "lon": 86.6006
+  },
+  "provenance": {
+    "source_name": "NASA SMAP Surface & Root-Zone Soil Moisture",
+    "resolution": "9\u201336 km (L3/L4 Radiometer & Assimilated)",
+    "agency": "NASA JPL / GSFC",
+    "is_cached": true,
+    "is_fallback": false,
+    "date_range": "2015-present climatological composite",
+    "spatial_notice": "Derived from 9\u201336 km (L3/L4 Radiometer & Assimilated) satellite/model grid, not ground field instrumentation.",
+    "note": "NASA SMAP 9-36 km radiometer & assimilated soil moisture. High spatial coarseness requires on-site soil review."
+  },
+  "statistics": {
+    "mean_surface_sm_m3_m3": 0.254,
+    "min_surface_sm_m3_m3": 0.06,
+    "max_surface_sm_m3_m3": 0.42,
+    "dry_stress_weeks_count": 23,
+    "saturated_weeks_count": 13
+  },
+  "stress_detection": {
+    "dry_stress_weeks": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      50,
+      51,
+      52
+    ],
+    "saturated_weeks": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "summer_depletion_severity": "High",
+    "narrative": "SMAP detects severe topsoil desiccation (<0.10 m\u00b3/m\u00b3) across 23 consecutive weeks in Zaid (April\u2013June), corroborating satellite bare-field observations and highlighting the urgency of summer cover crops."
+  },
+  "weekly_smap": [
+    {
+      "week_number": 1,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.254,
+      "rootzone_sm_m3_m3": 0.3,
+      "anomaly_sigma": -0.83,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 2,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.242,
+      "rootzone_sm_m3_m3": 0.292,
+      "anomaly_sigma": -0.97,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 3,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.23,
+      "rootzone_sm_m3_m3": 0.284,
+      "anomaly_sigma": -1.12,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 4,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.218,
+      "rootzone_sm_m3_m3": 0.276,
+      "anomaly_sigma": -1.27,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 5,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.206,
+      "rootzone_sm_m3_m3": 0.268,
+      "anomaly_sigma": -1.42,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 6,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.194,
+      "rootzone_sm_m3_m3": 0.26,
+      "anomaly_sigma": -1.57,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 7,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.182,
+      "rootzone_sm_m3_m3": 0.252,
+      "anomaly_sigma": -1.73,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 8,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.17,
+      "rootzone_sm_m3_m3": 0.244,
+      "anomaly_sigma": -1.88,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 9,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.158,
+      "rootzone_sm_m3_m3": 0.236,
+      "anomaly_sigma": -2.02,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 10,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.146,
+      "rootzone_sm_m3_m3": 0.228,
+      "anomaly_sigma": -2.17,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 11,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.154,
+      "rootzone_sm_m3_m3": 0.21,
+      "anomaly_sigma": -2.07,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 12,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.123,
+      "rootzone_sm_m3_m3": 0.191,
+      "anomaly_sigma": -2.46,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 13,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.094,
+      "rootzone_sm_m3_m3": 0.174,
+      "anomaly_sigma": -2.82,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 14,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.069,
+      "rootzone_sm_m3_m3": 0.159,
+      "anomaly_sigma": -3.14,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 15,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.06,
+      "rootzone_sm_m3_m3": 0.148,
+      "anomaly_sigma": -3.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 16,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.06,
+      "rootzone_sm_m3_m3": 0.14,
+      "anomaly_sigma": -3.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 17,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.06,
+      "rootzone_sm_m3_m3": 0.138,
+      "anomaly_sigma": -3.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 18,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.06,
+      "rootzone_sm_m3_m3": 0.14,
+      "anomaly_sigma": -3.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 19,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.06,
+      "rootzone_sm_m3_m3": 0.148,
+      "anomaly_sigma": -3.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 20,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.069,
+      "rootzone_sm_m3_m3": 0.159,
+      "anomaly_sigma": -3.14,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 21,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.094,
+      "rootzone_sm_m3_m3": 0.174,
+      "anomaly_sigma": -2.82,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 22,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.123,
+      "rootzone_sm_m3_m3": 0.191,
+      "anomaly_sigma": -2.46,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 23,
+      "season": "zaid",
+      "surface_sm_m3_m3": 0.154,
+      "rootzone_sm_m3_m3": 0.21,
+      "anomaly_sigma": -2.08,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    },
+    {
+      "week_number": 24,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.36,
+      "rootzone_sm_m3_m3": 0.34,
+      "anomaly_sigma": 0.5,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 25,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.399,
+      "rootzone_sm_m3_m3": 0.373,
+      "anomaly_sigma": 0.99,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 26,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 27,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 28,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 29,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 30,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 31,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 32,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 33,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 34,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 35,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 36,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 37,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 38,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.42,
+      "rootzone_sm_m3_m3": 0.39,
+      "anomaly_sigma": 1.25,
+      "is_dry_stress": false,
+      "is_saturated": true,
+      "status": "Saturated / Inundated"
+    },
+    {
+      "week_number": 39,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.399,
+      "rootzone_sm_m3_m3": 0.373,
+      "anomaly_sigma": 0.99,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 40,
+      "season": "kharif",
+      "surface_sm_m3_m3": 0.36,
+      "rootzone_sm_m3_m3": 0.34,
+      "anomaly_sigma": 0.5,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 41,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.31,
+      "rootzone_sm_m3_m3": 0.342,
+      "anomaly_sigma": -0.13,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 42,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.3,
+      "rootzone_sm_m3_m3": 0.334,
+      "anomaly_sigma": -0.25,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 43,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.29,
+      "rootzone_sm_m3_m3": 0.326,
+      "anomaly_sigma": -0.37,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 44,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.28,
+      "rootzone_sm_m3_m3": 0.318,
+      "anomaly_sigma": -0.5,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 45,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.27,
+      "rootzone_sm_m3_m3": 0.31,
+      "anomaly_sigma": -0.62,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 46,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.26,
+      "rootzone_sm_m3_m3": 0.302,
+      "anomaly_sigma": -0.75,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Optimal Moisture"
+    },
+    {
+      "week_number": 47,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.25,
+      "rootzone_sm_m3_m3": 0.294,
+      "anomaly_sigma": -0.88,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 48,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.24,
+      "rootzone_sm_m3_m3": 0.286,
+      "anomaly_sigma": -1.0,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 49,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.23,
+      "rootzone_sm_m3_m3": 0.278,
+      "anomaly_sigma": -1.12,
+      "is_dry_stress": false,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 50,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.22,
+      "rootzone_sm_m3_m3": 0.27,
+      "anomaly_sigma": -1.25,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 51,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.21,
+      "rootzone_sm_m3_m3": 0.262,
+      "anomaly_sigma": -1.37,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Moderate Deficit"
+    },
+    {
+      "week_number": 52,
+      "season": "rabi",
+      "surface_sm_m3_m3": 0.2,
+      "rootzone_sm_m3_m3": 0.254,
+      "anomaly_sigma": -1.5,
+      "is_dry_stress": true,
+      "is_saturated": false,
+      "status": "Severe Deficit"
+    }
+  ]
+}
