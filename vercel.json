@@ -1,8 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "if [ -d frontend ]; then cd frontend && npm install && npm run build && cd .. && mkdir -p dist && cp -r frontend/dist/* dist/ 2>/dev/null || true; elif [ -f vite.config.ts ]; then npm install && npm run build && mkdir -p frontend/dist && cp -r dist/* frontend/dist/ 2>/dev/null || true; else mkdir -p frontend/dist dist && echo ok > frontend/dist/index.html && echo ok > dist/index.html; fi",
+  "buildCommand": "if [ -d frontend ]; then cd frontend && npm install && npm run build; elif [ -f vite.config.ts ]; then npm install && npm run build; else mkdir -p frontend/dist && echo ok > frontend/dist/index.html; fi",
   "outputDirectory": "frontend/dist",
-
   "functions": {
     "api/index.py": {
       "maxDuration": 60
@@ -23,4 +22,3 @@
     }
   ]
 }
-
