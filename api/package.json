@@ -1,0 +1,7 @@
+{
+  "name": "field-shift-api",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p frontend/dist dist && echo ok > frontend/dist/index.html && echo ok > dist/index.html"
+  }
+}
