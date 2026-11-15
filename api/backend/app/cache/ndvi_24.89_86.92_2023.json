@@ -1,0 +1,410 @@
+{
+  "location": {
+    "lat": 24.8856,
+    "lon": 86.9234
+  },
+  "provenance": {
+    "source_name": "Sentinel-2 & Landsat Harmonized NDVI",
+    "resolution": "10\u201330 m",
+    "agency": "ESA Copernicus / NASA-USGS",
+    "is_cached": true,
+    "is_fallback": false,
+    "date_range": "2023-01-01 to 2023-12-31",
+    "spatial_notice": "Derived from 10\u201330 m satellite/model grid, not ground field instrumentation.",
+    "note": "Harmonized Sentinel-2 (10m) & Landsat-8/9 (30m) surface reflectance NDVI."
+  },
+  "statistics": {
+    "max_ndvi": 0.808,
+    "min_ndvi": 0.14,
+    "mean_ndvi": 0.476,
+    "peak_kharif_ndvi": 0.808,
+    "peak_rabi_ndvi": 0.74
+  },
+  "bare_field_detection": {
+    "is_detected": true,
+    "threshold_used": 0.2,
+    "total_bare_weeks": 11,
+    "max_consecutive_weeks": 11,
+    "bare_weeks": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "bare_season": "Zaid (Summer)",
+    "narrative": "Field exhibits 11 consecutive weeks of bare soil (NDVI < 0.2) from week 13 to 23."
+  },
+  "weekly_ndvi": [
+    {
+      "week_number": 1,
+      "season": "rabi",
+      "ndvi": 0.621,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 2,
+      "season": "rabi",
+      "ndvi": 0.66,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 3,
+      "season": "rabi",
+      "ndvi": 0.693,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 4,
+      "season": "rabi",
+      "ndvi": 0.719,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 5,
+      "season": "rabi",
+      "ndvi": 0.735,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 6,
+      "season": "rabi",
+      "ndvi": 0.74,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 7,
+      "season": "rabi",
+      "ndvi": 0.718,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 8,
+      "season": "rabi",
+      "ndvi": 0.695,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 9,
+      "season": "rabi",
+      "ndvi": 0.672,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 10,
+      "season": "rabi",
+      "ndvi": 0.65,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 11,
+      "season": "rabi",
+      "ndvi": 0.493,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 12,
+      "season": "rabi",
+      "ndvi": 0.337,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 13,
+      "season": "zaid",
+      "ndvi": 0.18,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 14,
+      "season": "zaid",
+      "ndvi": 0.14,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 15,
+      "season": "zaid",
+      "ndvi": 0.149,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 16,
+      "season": "zaid",
+      "ndvi": 0.165,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 17,
+      "season": "zaid",
+      "ndvi": 0.177,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 18,
+      "season": "zaid",
+      "ndvi": 0.179,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 19,
+      "season": "zaid",
+      "ndvi": 0.17,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 20,
+      "season": "zaid",
+      "ndvi": 0.154,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 21,
+      "season": "zaid",
+      "ndvi": 0.142,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 22,
+      "season": "zaid",
+      "ndvi": 0.141,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 23,
+      "season": "zaid",
+      "ndvi": 0.151,
+      "is_bare_soil": true,
+      "canopy_status": "Bare Soil"
+    },
+    {
+      "week_number": 24,
+      "season": "kharif",
+      "ndvi": 0.255,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 25,
+      "season": "kharif",
+      "ndvi": 0.31,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 26,
+      "season": "kharif",
+      "ndvi": 0.365,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 27,
+      "season": "kharif",
+      "ndvi": 0.42,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 28,
+      "season": "kharif",
+      "ndvi": 0.705,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 29,
+      "season": "kharif",
+      "ndvi": 0.753,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 30,
+      "season": "kharif",
+      "ndvi": 0.789,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 31,
+      "season": "kharif",
+      "ndvi": 0.808,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 32,
+      "season": "kharif",
+      "ndvi": 0.808,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 33,
+      "season": "kharif",
+      "ndvi": 0.789,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 34,
+      "season": "kharif",
+      "ndvi": 0.753,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 35,
+      "season": "kharif",
+      "ndvi": 0.705,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 36,
+      "season": "kharif",
+      "ndvi": 0.65,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 37,
+      "season": "kharif",
+      "ndvi": 0.706,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 38,
+      "season": "kharif",
+      "ndvi": 0.631,
+      "is_bare_soil": false,
+      "canopy_status": "Dense Canopy"
+    },
+    {
+      "week_number": 39,
+      "season": "kharif",
+      "ndvi": 0.557,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 40,
+      "season": "kharif",
+      "ndvi": 0.483,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 41,
+      "season": "kharif",
+      "ndvi": 0.409,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 42,
+      "season": "kharif",
+      "ndvi": 0.334,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 43,
+      "season": "kharif",
+      "ndvi": 0.26,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 44,
+      "season": "rabi",
+      "ndvi": 0.276,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 45,
+      "season": "rabi",
+      "ndvi": 0.311,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 46,
+      "season": "rabi",
+      "ndvi": 0.347,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 47,
+      "season": "rabi",
+      "ndvi": 0.382,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 48,
+      "season": "rabi",
+      "ndvi": 0.418,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 49,
+      "season": "rabi",
+      "ndvi": 0.453,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 50,
+      "season": "rabi",
+      "ndvi": 0.489,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 51,
+      "season": "rabi",
+      "ndvi": 0.524,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    },
+    {
+      "week_number": 52,
+      "season": "rabi",
+      "ndvi": 0.56,
+      "is_bare_soil": false,
+      "canopy_status": "Moderate Cover"
+    }
+  ]
+}

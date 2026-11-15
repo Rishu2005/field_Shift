@@ -1,0 +1,202 @@
+[
+  {
+    "id": "rice-wheat",
+    "name": "Rice – Wheat",
+    "sequence": [
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "wheat" },
+      { "season": "zaid", "crop_id": null, "label": "Bare Fallow" }
+    ],
+    "is_preset_baseline": true,
+    "description": "Dominant crop rotation across the Indo-Gangetic Plains covering over 70% of irrigated land in Bihar.",
+    "suitable_zones": ["Zone I", "Zone II", "Zone IIIA", "Zone IIIB"],
+    "benefits": ["High staple calorie security", "Well-established government Minimum Support Price (MSP) procurement channels"],
+    "risks": [
+      "Depletes groundwater reserves where tubewell irrigation is over-extracted",
+      "Perpetuates Poaceae monoculture encouraging Phalaris minor and spot blotch build-up",
+      "Leaves land bare from late March to June (zaid) exposing soil to high solar radiation and organic matter burn-off",
+      "Terminal heat stress on wheat during March grain filling"
+    ],
+    "soil_health_rating": "Low",
+    "water_efficiency_rating": "Medium-Low",
+    "source_notes": {
+      "agronomy": "ICAR-RCER Patna Indo-Gangetic Plains Cereal Systems Review.",
+      "fallow_risk": "CIMMYT CSISA Bihar Cropping Systems Diagnostics."
+    }
+  },
+  {
+    "id": "rice-maize",
+    "name": "Rice – Rabi Maize",
+    "sequence": [
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "maize" },
+      { "season": "zaid", "crop_id": null, "label": "Short Fallow" }
+    ],
+    "is_preset_baseline": true,
+    "description": "High-yielding cash grain system highly popular in North Bihar alluvial zones (Begusarai, Khagaria, Samastipur).",
+    "suitable_zones": ["Zone I", "Zone II"],
+    "benefits": ["Significantly higher profit margins and grain yields compared to rabi wheat", "High stover biomass for dairy forage or mulch"],
+    "risks": [
+      "Heavy nitrogen and potassium mining requiring balanced fertilizer management",
+      "Late harvest of rabi maize can delay summer field preparation"
+    ],
+    "soil_health_rating": "Medium",
+    "water_efficiency_rating": "Medium",
+    "source_notes": {
+      "agronomy": "BAU Sabour Rabi Maize Production Manual & ICAR-IIMR."
+    }
+  },
+  {
+    "id": "rice-lentil",
+    "name": "Rice – Lentil (Paira / Zero-Till)",
+    "sequence": [
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "lentil" },
+      { "season": "zaid", "crop_id": null, "label": "Fallow" }
+    ],
+    "is_preset_baseline": true,
+    "description": "Resource-conserving rotation suited for water-stressed tracts or lowlands with residual post-monsoon soil moisture.",
+    "suitable_zones": ["Zone IIIA", "Zone IIIB", "Zone I"],
+    "benefits": [
+      "Biological nitrogen fixation saves synthetic N for next season",
+      "Low irrigation requirement (often grown rainfed on residual moisture)",
+      "High market price and local household dietary protein"
+    ],
+    "risks": [
+      "Vulnerable to collar rot or seedling damping-off if excess moisture persists post-harvest",
+      "Susceptible to Pod borer and Stemphylium blight under sudden humid foggy conditions"
+    ],
+    "soil_health_rating": "High",
+    "water_efficiency_rating": "High",
+    "source_notes": {
+      "agronomy": "ICAR-IIPR Kanpur Relay/Paira Cropping in Rice Fallows & BAU Sabour."
+    }
+  },
+  {
+    "id": "rice-mustard",
+    "name": "Rice – Mustard",
+    "sequence": [
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "mustard" },
+      { "season": "zaid", "crop_id": null, "label": "Fallow / Catch Crop" }
+    ],
+    "is_preset_baseline": true,
+    "description": "Cereal-oilseed rotation breaking graminaceous weed cycles with low irrigation requirement.",
+    "suitable_zones": ["Zone I", "Zone IIIA", "Zone IIIB"],
+    "benefits": [
+      "Requires only 2-3 light irrigations, saving substantial groundwater",
+      "Mustard root glucosinolate residues act as natural biofumigants against soil pathogens",
+      "Ready cash return from edible oil market"
+    ],
+    "risks": [
+      "Sensitive to winter cold waves / frost during early siliqua formation",
+      "Severe yield drop if aphid (Lipaphis erysimi) infestation goes unchecked"
+    ],
+    "soil_health_rating": "Medium",
+    "water_efficiency_rating": "High",
+    "source_notes": {
+      "agronomy": "ICAR-DRMR Bharatpur & BAU Sabour Oilseeds Program."
+    }
+  },
+  {
+    "id": "maize-wheat-pulses",
+    "name": "Kharif Maize – Wheat / Chickpea",
+    "sequence": [
+      { "season": "kharif", "crop_id": "maize" },
+      { "season": "rabi", "crop_id": "chickpea" },
+      { "season": "zaid", "crop_id": null, "label": "Fallow" }
+    ],
+    "is_preset_baseline": true,
+    "description": "Upland Bihar rotation replacing high-water puddle rice with upland maize followed by drought-tolerant pulses.",
+    "suitable_zones": ["Zone IIIA", "Zone IIIB", "Zone I (Uplands)"],
+    "benefits": [
+      "Cuts total water consumption by 40-50% compared to puddled rice systems",
+      "Improves soil structure by eliminating wet puddling pans"
+    ],
+    "risks": [
+      "Kharif maize requires excellent field drainage; prone to waterlogging death during heavy monsoon downpours"
+    ],
+    "soil_health_rating": "High",
+    "water_efficiency_rating": "High",
+    "source_notes": {
+      "agronomy": "CIMMYT Sustainable Intensification Program in Eastern India."
+    }
+  },
+  {
+    "id": "rice-wheat-moong",
+    "name": "Rice – Wheat – Summer Moong (Intensified Legume)",
+    "sequence": [
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "wheat" },
+      { "season": "zaid", "crop_id": "mungbean" }
+    ],
+    "is_preset_baseline": true,
+    "description": "Triple-cropping system that covers the bare summer (zaid) gap with an early maturing 60-day pulse.",
+    "suitable_zones": ["Zone I", "Zone II", "Zone IIIB (Irrigated)"],
+    "benefits": [
+      "Eliminates the bare-field period during zaid, reducing soil erosion and solar organic carbon loss",
+      "Fixes 30-40 kg N/ha and yields 8-12 q/ha high-value pulse grain",
+      "Stover can be incorporated as green mulch right before rice puddling"
+    ],
+    "risks": [
+      "Requires assured tubewell irrigation (2-3 irrigations in April-May)",
+      "Tight turnaround window between wheat harvest (April) and rice transplanting (June-July)"
+    ],
+    "soil_health_rating": "Very High",
+    "water_efficiency_rating": "Medium-High",
+    "source_notes": {
+      "agronomy": "ICAR-RCER Patna Cereal-Legume Intensification Protocol & BAU Sabour."
+    }
+  },
+  {
+    "id": "sesbania-rice-lentil",
+    "name": "Green Manure (Dhaincha) – Rice – Lentil",
+    "sequence": [
+      { "season": "zaid", "crop_id": "sesbania" },
+      { "season": "kharif", "crop_id": "rice" },
+      { "season": "rabi", "crop_id": "lentil" }
+    ],
+    "is_preset_baseline": false,
+    "description": "Ecological soil-rebuilding strategy optimizing biological nitrogen, soil organic matter, and minimal groundwater extraction.",
+    "suitable_zones": ["Zone I", "Zone II", "Zone IIIA", "Zone IIIB"],
+    "benefits": [
+      "Dual legume components supply up to 100-140 kg N/ha biological fertility",
+      "Increases soil water holding capacity and buffers against both monsoon breaks and terminal heat",
+      "Lowest chemical input cost among all rotations"
+    ],
+    "risks": [
+      "Dhaincha must be incorporated at exactly 45-50 days before succulent stems turn woody",
+      "Requires rotavator or power tiller for timely biomass burial"
+    ],
+    "soil_health_rating": "Highest",
+    "water_efficiency_rating": "High",
+    "source_notes": {
+      "agronomy": "ICAR-CSSRI Karnal Green Manure Systematics & BAU Sabour."
+    }
+  },
+  {
+    "id": "makhana-wheat",
+    "name": "Makhana – Rabi Wheat / Lentil",
+    "sequence": [
+      { "season": "kharif", "crop_id": "makhana" },
+      { "season": "rabi", "crop_id": "wheat" },
+      { "season": "zaid", "crop_id": null, "label": "Inundation" }
+    ],
+    "is_preset_baseline": false,
+    "description": "Field-based wetland rotation turning chronically waterlogged kharif lowlands into high-value superfood production followed by winter grain.",
+    "suitable_zones": ["Zone II (Mithila / Kosi Basin)", "Zone I"],
+    "benefits": [
+      "Exceptional economic returns from GI-tagged Mithila Makhana",
+      "Thrives in lowlands where conventional crops drown during monsoon"
+    ],
+    "risks": [
+      "Specialized labor required for traditional seed collection from pond/field bed",
+      "Field de-watering infrastructure needed prior to rabi sowing"
+    ],
+    "soil_health_rating": "Medium-High",
+    "water_efficiency_rating": "Specialized Wetland",
+    "source_notes": {
+      "agronomy": "ICAR-RCER Research Centre on Makhana, Darbhanga: Field-based Makhana Cultivation."
+    }
+  }
+]
